@@ -1,6 +1,6 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
-#import <EXSensors/EXMagnetometer.h>
+#import <ExpoSensors/EXMagnetometer.h>
 #import <ExpoModulesCore/EXMagnetometerInterface.h>
 
 @implementation EXMagnetometer

@@ -4,7 +4,7 @@
 #import <CoreMotion/CoreMotion.h>
 
 #import <ExpoModulesCore/EXDefines.h>
-#import <EXSensors/EXSensorsManager.h>
+#import <ExpoSensors/EXSensorsManager.h>
 
 @interface EXSensorsManager ()
 

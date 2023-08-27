@@ -1,6 +1,6 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
-#import <EXSensors/EXMagnetometerUncalibrated.h>
+#import <ExpoSensors/EXMagnetometerUncalibrated.h>
 #import <ExpoModulesCore/EXMagnetometerUncalibratedInterface.h>
 
 @implementation EXMagnetometerUncalibrated

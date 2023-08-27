@@ -4,7 +4,7 @@
 #import <ExpoModulesCore/EXAppLifecycleListener.h>
 #import <ExpoModulesCore/EXEventEmitterService.h>
 #import <ExpoModulesCore/EXAppLifecycleService.h>
-#import <EXSensors/EXBaseSensorModule.h>
+#import <ExpoSensors/EXBaseSensorModule.h>
 
 @interface EXBaseSensorModule () <EXAppLifecycleListener>
 

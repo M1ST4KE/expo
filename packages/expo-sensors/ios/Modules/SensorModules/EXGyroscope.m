@@ -1,6 +1,6 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
-#import <EXSensors/EXGyroscope.h>
+#import <ExpoSensors/EXGyroscope.h>
 #import <ExpoModulesCore/EXGyroscopeInterface.h>
 
 @implementation EXGyroscope

@@ -1,6 +1,6 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
-#import <EXSensors/EXBarometer.h>
+#import <ExpoSensors/EXBarometer.h>
 #import <ExpoModulesCore/EXBarometerInterface.h>
 
 @implementation EXBarometer

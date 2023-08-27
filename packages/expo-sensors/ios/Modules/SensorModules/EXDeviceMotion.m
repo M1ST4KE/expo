@@ -1,6 +1,6 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
-#import <EXSensors/EXDeviceMotion.h>
+#import <ExpoSensors/EXDeviceMotion.h>
 #import <ExpoModulesCore/EXDeviceMotionInterface.h>
 
 @implementation EXDeviceMotion

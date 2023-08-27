@@ -1,7 +1,7 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
-#import <EXSensors/EXPedometer.h>
-#import <EXSensors/EXMotionPermissionRequester.h>
+#import <ExpoSensors/EXPedometer.h>
+#import <ExpoSensors/EXMotionPermissionRequester.h>
 #import <CoreMotion/CoreMotion.h>
 #import <ExpoModulesCore/EXModuleRegistry.h>
 #import <ExpoModulesCore/EXAppLifecycleService.h>

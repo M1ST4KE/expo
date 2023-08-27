@@ -1,7 +1,19 @@
 {
   "name": "expo-sensors",
-  "platforms": ["ios", "android"],
-
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "ios": {
+    "modules": [
+      "PedometerModule",
+      "AccelerometerModule",
+      "BarometerModule",
+      "DeviceMotionModule",
+      "GyroscopeModule",
+      "MagnetometerModule"
+    ]
+  },
   "android": {
     "modules": [
       "expo.modules.sensors.modules.AccelerometerModule",

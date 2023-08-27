@@ -1,6 +1,6 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
-#import <EXSensors/EXAccelerometer.h>
+#import <ExpoSensors/EXAccelerometer.h>
 #import <ExpoModulesCore/EXAccelerometerInterface.h>
 
 @implementation EXAccelerometer

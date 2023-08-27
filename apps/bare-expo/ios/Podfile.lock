@@ -229,6 +229,8 @@ PODS:
     - React-Core
   - ExpoSecureStore (12.4.1):
     - ExpoModulesCore
+  - ExpoSensors (12.4.1):
+    - ExpoModulesCore
   - ExpoSharing (11.6.0):
     - ExpoModulesCore
   - ExpoSMS (11.4.0):
@@ -249,8 +251,6 @@ PODS:
   - ExpoWebBrowser (12.4.1):
     - ExpoModulesCore
   - EXScreenCapture (5.4.0):
-    - ExpoModulesCore
-  - EXSensors (12.4.1):
     - ExpoModulesCore
   - EXSplashScreen (0.21.1):
     - ExpoModulesCore
@@ -880,6 +880,7 @@ DEPENDENCIES:
   - ExpoRandom (from `../../../packages/expo-random/ios`)
   - ExpoScreenOrientation (from `../../../packages/expo-screen-orientation/ios`)
   - ExpoSecureStore (from `../../../packages/expo-secure-store/ios`)
+  - ExpoSensors (from `../../../packages/expo-sensors/ios`)
   - ExpoSharing (from `../../../packages/expo-sharing/ios`)
   - ExpoSMS (from `../../../packages/expo-sms/ios`)
   - ExpoSpeech (from `../../../packages/expo-speech/ios`)
@@ -890,7 +891,6 @@ DEPENDENCIES:
   - ExpoVideoThumbnails (from `../../../packages/expo-video-thumbnails/ios`)
   - ExpoWebBrowser (from `../../../packages/expo-web-browser/ios`)
   - EXScreenCapture (from `../../../packages/expo-screen-capture/ios`)
-  - EXSensors (from `../../../packages/expo-sensors/ios`)
   - EXSplashScreen (from `../../../packages/expo-splash-screen/ios`)
   - EXStructuredHeaders (from `../../../packages/expo-structured-headers/ios`)
   - EXStructuredHeaders/Tests (from `../../../packages/expo-structured-headers/ios`)
@@ -1133,6 +1133,9 @@ EXTERNAL SOURCES:
   ExpoSecureStore:
     inhibit_warnings: false
     :path: "../../../packages/expo-secure-store/ios"
+  ExpoSensors:
+    inhibit_warnings: false
+    :path: "../../../packages/expo-sensors/ios"
   ExpoSharing:
     inhibit_warnings: false
     :path: "../../../packages/expo-sharing/ios"
@@ -1163,9 +1166,6 @@ EXTERNAL SOURCES:
   EXScreenCapture:
     inhibit_warnings: false
     :path: "../../../packages/expo-screen-capture/ios"
-  EXSensors:
-    inhibit_warnings: false
-    :path: "../../../packages/expo-sensors/ios"
   EXSplashScreen:
     inhibit_warnings: false
     :path: "../../../packages/expo-splash-screen/ios"
@@ -1346,6 +1346,7 @@ SPEC CHECKSUMS:
   ExpoRandom: 1320eaeee184be2aad9cbb8a2b987942982ebbb4
   ExpoScreenOrientation: 109030fc94bd259ce12ca29cbd467e298d07f81b
   ExpoSecureStore: eea16d67ae42a61a3a25c581198525bfa2cce61c
+  ExpoSensors: aa12aaaf78ef7c4b3dbe1d5bebb585816f984f86
   ExpoSharing: 134ecbecb2f81295d7dd5d66ce90ae050962ecfd
   ExpoSMS: c8079b3018ae5206b3f1f6f445fd4eee2a19a335
   ExpoSpeech: cd3a86aedd2340f22eeca8a93040a825be9a280b
@@ -1356,7 +1357,6 @@ SPEC CHECKSUMS:
   ExpoVideoThumbnails: cb03c144b3152e5cd5a421a8c93b4fcc9ac3d308
   ExpoWebBrowser: e0d83469554d1c09ca383f32207b569680880c5d
   EXScreenCapture: 61e01521ebc7b156696a8b2b68ce35ef36be7ca2
-  EXSensors: a59fd72b3a36c4b8acd0018ead376bc3985efb2e
   EXSplashScreen: fe099ce10e06650ef935d977a33ac8d6a10f72fc
   EXStructuredHeaders: 324cc3130571d2696357fafd8be7fd9a0b5fdf6e
   EXTaskManager: cac6e3369f552797bb41e3bb0040d68cd6acf3db
