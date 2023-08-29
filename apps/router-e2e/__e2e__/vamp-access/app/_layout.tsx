@@ -1,4 +1,5 @@
 import { Slot } from 'expo-router';
+
 import { Provider } from '../ctx';
 
 export default function Root() {
