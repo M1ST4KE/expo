@@ -1,5 +1,5 @@
 import { Text, View } from 'react-native';
-import { useAuth } from '../../context/auth';
+import { useAuth } from '../../ctx';
 
 export default function SignIn() {
   const { signIn } = useAuth();
