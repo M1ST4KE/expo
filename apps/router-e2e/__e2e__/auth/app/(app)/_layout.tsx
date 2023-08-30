@@ -1,10 +1,10 @@
 import { Link, Redirect, Stack } from 'expo-router';
 import { Text, View } from 'react-native';
 
-import { useAuth } from '../../ctx';
+import { useSession } from '../../ctx';
 
 export default function Root() {
-  const { user, isLoading } = useAuth();
+  const { user, isLoading } = useSession();
 
   if (isLoading) {
     return <div>Loading...</div>;
